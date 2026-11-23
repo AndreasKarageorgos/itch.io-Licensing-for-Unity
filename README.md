@@ -247,3 +247,5 @@ Some features exist only in the Unity Editor and in builds with Development Buil
 * `ItchStrings.cs` and `ItchLicenseConfig.cs`: give the other scripts the values stored in `ItchSecrets.Local.cs`.
 * `Editor/ItchSecretsGenerator.cs`: the Generate Secrets window. It must stay inside a folder named `Editor` so it is never included in builds.
 * `.gitignore`: keeps `ItchSecrets.Local.cs` out of git.
+
+![Architecture Diagram](diagram.png)
