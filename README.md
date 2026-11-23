@@ -23,7 +23,7 @@ Supported platforms: Windows and Linux desktop builds. WebGL is not supported.
 
 * Unity 2021.2 or newer.
 * Player Settings, Other Settings, API Compatibility Level set to .NET Standard 2.1.
-* Scripting Backend set to Mono. The login uses `HttpListener`, which may not work with IL2CPP. If you want to try IL2CPP, test the login carefully on both Windows and Linux first.
+* Scripting Backend set to Mono. The login uses `HttpListener`, which may not work with IL2CPP. If you want to try IL2CPP, test the login carefully on both Windows and Linux first (It works on IL2CPP on my Unity6 tests).
 * An itch.io account that owns the game page.
 
 # Installation
